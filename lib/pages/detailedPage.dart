@@ -6,6 +6,7 @@ import 'package:flutter_cubit/misc/colors.dart';
 import 'package:flutter_cubit/reUsables/app_Button.dart';
 import 'package:flutter_cubit/reUsables/boldText.dart';
 import 'package:flutter_cubit/reUsables/intro_nonBoldText.dart';
+import 'package:flutter_cubit/reUsables/responsiveButton.dart';
 
 class DetailedInfoPage extends StatefulWidget {
   const DetailedInfoPage({Key? key}) : super(key: key);
@@ -204,6 +205,7 @@ class _DetailedInfoPageState extends State<DetailedInfoPage> {
             Positioned(
               bottom: 20,
               left: 20,
+              right: 20,
               child: Row(
                 children: [
                   AppButton(
@@ -214,7 +216,10 @@ class _DetailedInfoPageState extends State<DetailedInfoPage> {
                   isIcon: true,
                   icon: Icons.favorite_border,
                   ),
-
+                  SizedBox(width: 20),
+                  ResponsiveButton(
+                    isResponsive: true,
+                  ),
                 ],
               ),
             ),
