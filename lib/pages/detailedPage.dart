@@ -209,12 +209,12 @@ class _DetailedInfoPageState extends State<DetailedInfoPage> {
               child: Row(
                 children: [
                   AppButton(
-                      color: AppColors.textColor2,
-                      backColor: Colors.white,
-                      size: 60,
-                      borderColor: AppColors.textColor1,
-                  isIcon: true,
-                  icon: Icons.favorite_border,
+                    color: AppColors.textColor2,
+                    backColor: Colors.white,
+                    size: 60,
+                    borderColor: AppColors.textColor1,
+                    isIcon: true,
+                    icon: Icons.favorite_border,
                   ),
                   SizedBox(width: 20),
                   ResponsiveButton(
