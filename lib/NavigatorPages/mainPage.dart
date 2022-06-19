@@ -32,8 +32,11 @@ void onTap(int index){
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: pages[0],
+      backgroundColor: Colors.white,
+      body: pages[currentIndex],
       bottomNavigationBar: BottomNavigationBar(
+        unselectedFontSize: 0,
+        selectedFontSize: 0,
         type: BottomNavigationBarType.shifting,
         onTap: onTap,
         currentIndex: currentIndex,
