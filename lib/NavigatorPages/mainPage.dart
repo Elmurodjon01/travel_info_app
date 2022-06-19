@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_cubit/NavigatorPages/homePage.dart';
+import 'package:flutter_cubit/pages/homePage.dart';
 import 'package:flutter_cubit/NavigatorPages/profilePage.dart';
 import 'package:flutter_cubit/NavigatorPages/searchPage.dart';
 
